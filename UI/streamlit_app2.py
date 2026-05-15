@@ -10,8 +10,8 @@ from scenes_classifier import SceneClassifier
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 # Models
-object_classifer = YOLO('object_classifer.pt')
-scene_classifer = torch.load('scene_classifer.pt', map_location=device, weights_only=False)
+object_classifer = YOLO('UI/object_classifer.pt')
+scene_classifer = torch.load('UI/scene_classifer.pt', map_location=device, weights_only=False)
 
 scene_classifer.to(device)
 scene_classifer.eval()
