@@ -58,9 +58,9 @@ with col1:
     else:
         ver = 1
         sample_images = {
-            "Cows": "test_images/cows.jpg",
-            "Dogs": "test_images/dogs.jpeg",
-            "Person": "test_images/person.jpg",
+            "Cows": "UI/test_images/cows.jpg",
+            "Dogs": "UI/test_images/dogs.jpeg",
+            "Person": "UI/test_images/person.jpg",
         }
 
         selected_sample_image = st.selectbox(
