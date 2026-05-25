@@ -54,7 +54,7 @@ Contains streamlit UI file, both model pt files and test_images.
     - A lot of Images have an ambigious, unidentifiable or even completely lack a background. These cases lead to misclassifications by the scene classifier. These cases may even affect the object detection model.   
 
 ### Authors
-- **Paul Abili** - ([@SmilingSupernova](https://github.com/SmilingSupernova)) 
+- **Paul Abili** - ([@PaulAbili](https://github.com/PaulAbili)) 
     - Email: pabili1@umbc.edu
 - **Alex Gallagher** - ([@AG446](https://github.com/AG446)) 
     - Email: a446@umbc.edu
